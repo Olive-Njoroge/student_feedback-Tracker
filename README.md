@@ -1,17 +1,39 @@
-# React + Vite
+# 🎓 Student Feedback Form
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple, elegant feedback submission web app for collecting student feedback. Built using **React**, **Tailwind CSS**, **shadcn/ui**, and **Vite**.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📸 Screenshot
 
-## Expanding the ESLint configuration
+![Screenshot](./Screenshot.png)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-"# student_feedback-Tracker" 
-Progress: resolved 0, reused 1, downloaded 0, added 0
- ERR_PNPM_SPEC_NOT_SUPPORTED_BY_ANY_RESOLVER  # student_feedback-Tracker isn't supported by any available resolver.
+---
 
-This error happened while installing a direct dependency of C:\Users\Olive\OneDrive\Desktop\student_feedback
+## ⚙️ Features
+
+- Add student name, comment, and rating (1–5)
+- Dynamic list rendering using React state
+- Delete feedback entries
+- Styled using Tailwind CSS and shadcn components
+- Form validation for empty fields
+- Fully responsive and clean design
+
+---
+
+## 🚀 Tech Stack
+
+- [React](https://react.dev/)
+- [Vite](https://vitejs.dev/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [shadcn/ui](https://ui.shadcn.dev/)
+
+---
+
+## 🛠️ Installation
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/your-username/student-feedback-form.git
+cd student-feedback-form
